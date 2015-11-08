@@ -355,7 +355,7 @@ var Sidebar = (function (_React$Component) {
         rootProps,
         _reactAddons2['default'].createElement(
           'div',
-          { style: sidebarStyle, ref: 'sidebar' },
+          { className: this.props.className, style: sidebarStyle, ref: 'sidebar' },
           this.props.sidebar
         ),
         _reactAddons2['default'].createElement('div', { style: overlayStyle,
