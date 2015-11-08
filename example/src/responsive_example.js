@@ -61,7 +61,7 @@ var App = React.createClass({
     };
 
     return (
-      <Sidebar {...sidebarProps}>
+      <Sidebar className="fixedSidebar" {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <p>
             This example will automatically dock the sidebar if the page

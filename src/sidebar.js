@@ -321,7 +321,7 @@ class Sidebar extends React.Component {
 
     return (
       <div {...rootProps}>
-        <div style={sidebarStyle} ref='sidebar'>
+        <div className={this.props.className} style={sidebarStyle} ref='sidebar'>
           {this.props.sidebar}
         </div>
         <div style={overlayStyle}
