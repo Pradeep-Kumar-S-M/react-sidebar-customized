@@ -86,7 +86,7 @@ var App = React.createClass({
     };
 
     return (
-      <Sidebar {...sidebarProps}>
+      <Sidebar className="fixedSidebar" {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <p>React Sidebar is a sidebar component for React. It offers the following features:</p>
           <ul>
