@@ -71,6 +71,7 @@ var styles = {
   }
 };
 
+
 var Sidebar = (function (_React$Component) {
   _inherits(Sidebar, _React$Component);
 
@@ -261,6 +262,10 @@ var Sidebar = (function (_React$Component) {
         style: styles.root
       };
       var dragHandle = undefined;
+
+      if(this.props.overlayStyle){
+        Object.assign(overlayStyle , this.props.overlayStyle); 
+      }
 
       // sidebarStyle right/left
       if (this.props.pullRight) {

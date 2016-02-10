@@ -83,6 +83,7 @@ var App = React.createClass({
       dragToggleDistance: this.state.dragToggleDistance,
       transitions: this.state.transitions,
       onSetOpen: this.onSetOpen,
+      overlayStyle : {position:'absolute'}
     };
 
     return (
